@@ -88,8 +88,8 @@ The script requires only `bash`, `git`, `awk`, and `pip`/`pip3` on `PATH`. It do
 | r1_ascend | [`recipe/r1_ascend/REQUIRED_VERL.txt`](r1_ascend/REQUIRED_VERL.txt) |
 | rep_exp | [`recipe/rep_exp/REQUIRED_VERL.txt`](rep_exp/REQUIRED_VERL.txt) |
 | retool | [`recipe/retool/REQUIRED_VERL.txt`](retool/REQUIRED_VERL.txt) |
-| rl_spec | [`recipe/rl_spec/REQUIRED_VERL.txt`](rl_spec/REQUIRED_VERL.txt) |
 | specRL/histoSpec | [`recipe/specRL/histoSpec/REQUIRED_VERL.txt`](specRL/histoSpec/REQUIRED_VERL.txt) |
+| specRL/rl_spec | [`recipe/specRL/rl_spec/REQUIRED_VERL.txt`](specRL/rl_spec/REQUIRED_VERL.txt) |
 | spin | [`recipe/spin/REQUIRED_VERL.txt`](spin/REQUIRED_VERL.txt) |
 | spo | [`recipe/spo/REQUIRED_VERL.txt`](spo/REQUIRED_VERL.txt) |
 | sppo | [`recipe/sppo/REQUIRED_VERL.txt`](sppo/REQUIRED_VERL.txt) |
@@ -103,7 +103,7 @@ The script requires only `bash`, `git`, `awk`, and `pip`/`pip3` on `PATH`. It do
 - [spo](https://github.com/verl-project/verl-recipe/tree/main/spo): [Single-stream Policy Optimization](https://arxiv.org/abs/2509.13232).
 - [partial_rollout](./partial_rollout/): synchronous RL with cross-step rollout interruption + resume to reclaim long-tail GPU bubbles ([APRIL](https://arxiv.org/pdf/2509.18521)-style).
 - [verl_tinker](./verl_tinker/): Tinker-compatible HTTP server backed by VeRL actors, with separate Tinker cookbook client examples.
-- [rl_spec](./rl_spec/): accelerating RL rollout with a co-adapted diffusion drafter ([DFlash](https://github.com/z-lab/dflash)), via Split-KV context parallelism for drafter training and entropy-boosted anchor sampling.
+- [specRL/rl_spec](./specRL/rl_spec/): accelerating RL rollout with a co-adapted diffusion drafter ([DFlash](https://github.com/z-lab/dflash)), via Split-KV context parallelism for drafter training and entropy-boosted anchor sampling.
 - TBA...
 
 ## Contribution
